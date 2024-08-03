@@ -19,7 +19,7 @@ app.use("/image", imageRouter);
 
 mongoose
   .connect(
-    "mongodb+srv://admin:admin@cluster0.nk7fe2u.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0"
+    "mongoDB Database"
   )
   .then(() => {
     app.listen(Port, () => {
